@@ -1,7 +1,7 @@
 #include "ashell.h"
 
 /**
- * addVarNode - To adds a variable at the end
+ * addVarNode - Adds a variable at the end
  * of a var_list.
  * @head: Head of the linked list.
  * @lvar: Length of the variable.
@@ -39,9 +39,9 @@ var_list *addVarNode(var_list **head, int lvar, char *val, int lval)
 }
 
 /**
- * freeVarList - To frees a var_list
+ * freeVarList - To free a var_list
  * @head: Head of the linked list.
- * Return: no return.
+ * Return: no return value .
  */
 void freeVarList(var_list **head)
 {
