@@ -2,7 +2,7 @@
 
 /**
  * getHelp - The function that retrieves help mgs according builtin
- * @datash: Data structure (args and input)
+ * @datash: Data structure containing (args and input)
  * Return: Return 0
 */
 int getHelp(data_shell *datash)
