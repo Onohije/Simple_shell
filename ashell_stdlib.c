@@ -1,9 +1,9 @@
 #include "ashell.h"
 
 /**
- * getLen - To get the lenght of a num.
+ * getLen - To get the lenght of an integer num.
  * @n: Type int num.
- * Return: Lenght of a num.
+ * Return: Lenght of the num.
  */
 int getLen(int n)
 {
@@ -28,8 +28,8 @@ int getLen(int n)
 	return (len);
 }
 /**
- * auxItoa - To function converts int to str
- * @n: Type int num
+ * auxItoa - To function converts int to str.
+ * @n: Type int num.
  * Return: String.
  */
 char *auxItoa(int n)
