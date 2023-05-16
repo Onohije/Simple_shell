@@ -1,10 +1,10 @@
 #include "ashell.h"
 
 /**
- * change_dir_shell - Changes current dir
+ * change_dir_shell - Changes current directory.
  *
- * @datash: Data relevant
- * Return: 1 on success
+ * @datash: Data relevant.
+ * Return: 1 on success.
  */
 int change_dir_shell(data_shell *datash)
 {

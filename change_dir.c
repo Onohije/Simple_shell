@@ -5,7 +5,7 @@
  *
  * @datash: data relevant (environ)
  *
- * Return: no return
+ * Return: no return value.
  */
 void change_dir_dot(data_shell *datash)
 {
@@ -55,7 +55,7 @@ void change_dir_dot(data_shell *datash)
  * change_dir_to - Changes to directory given by the user
  *
  * @datash: Data relevant (directories)
- * Return: no return
+ * Return: no return value.
  */
 void change_dir_to(data_shell *datash)
 {
@@ -89,7 +89,7 @@ void change_dir_to(data_shell *datash)
  * change_dir_previous - Changes to the previous dir
  *
  * @datash: Data relevant (environ)
- * Return: no return
+ * Return: no return value.
  */
 void change_dir_previous(data_shell *datash)
 {
@@ -131,7 +131,7 @@ void change_dir_previous(data_shell *datash)
  * change_dir_to_home - Changes to home dir
  *
  * @datash: Data relevant (environ)
- * Return: no return
+ * Return: no return value.
  */
 void change_dir_to_home(data_shell *datash)
 {
