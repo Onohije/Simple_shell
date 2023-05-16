@@ -2,7 +2,7 @@
 
 /**
  * auxHelp - To help information for the builtin help.
- * Return: no return
+ * Return: no return value.
  */
 void auxHelp(void)
 {
@@ -16,7 +16,7 @@ void auxHelp(void)
 }
 /**
  * auxHelpAlias - To help information for the builtin alias.
- * Return: no return
+ * Return: no return value.
  */
 void auxHelp_alias(void)
 {
@@ -28,7 +28,7 @@ void auxHelp_alias(void)
 }
 /**
  * auxHelpCd - To help information for the builtin alias.
- * Return: no return
+ * Return: no return value.
  */
 void auxHelp_cd(void)
 {

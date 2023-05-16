@@ -1,8 +1,8 @@
 #include "ashell.h"
 
 /**
- * auxHelpEnv - To help information for the builtin env
- * Return: no return
+ * auxHelpEnv - To help information for the builtin env.
+ * Return: no return value.
  */
 void auxHelpEnv(void)
 {
@@ -14,8 +14,8 @@ void auxHelpEnv(void)
 
 }
 /**
- * auxHelpSetenv -To help information for the builtin setenv
- * Return: no return
+ * auxHelpSetenv -To help information for the builtin setenv.
+ * Return: no return.
  */
 void auxHelpSetenv(void)
 {
@@ -29,8 +29,8 @@ void auxHelpSetenv(void)
 	write(STDOUT_FILENO, h, strlen_(h));
 }
 /**
- * auxHelpUnsetenv -  To help information for the builtin unsetenv
- * Return: no return
+ * auxHelpUnsetenv -  To help information for the builtin unsetenv.
+ * Return: no return value.
  */
 void auxHelpUnsetenv(void)
 {
@@ -43,8 +43,8 @@ void auxHelpUnsetenv(void)
 
 
 /**
- * auxHelpGeneral - Entry point for help information for the help builtin
- * Return: no return
+ * auxHelpGeneral - Entry point for help information for the help builtin.
+ * Return: no return value.
  */
 void auxHelpGeneral(void)
 {
@@ -65,8 +65,8 @@ void auxHelpGeneral(void)
 	write(STDOUT_FILENO, h, strlen_(h));
 }
 /**
- * auxHelpExit - To help information fot the builint exit
- * Return: no return
+ * auxHelpExit - To help information fot the builint exit.
+ * Return: no return.
  */
 void auxHelpExit(void)
 {
