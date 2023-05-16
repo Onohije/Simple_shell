@@ -1,10 +1,10 @@
 #include "ashell.h"
 
 /**
- * line - assigns the line var for getLine
+ * line - Assigns the line variable for the getline function
  * @lineptr: Buffer that store the input str
  * @buf: str that is been called to line
- * @i: size of line
+ * @i: size of line variable
  * @j: size of buffer
  */
 void line(char **lineptr, size_t *i, char *buf, size_t j)
