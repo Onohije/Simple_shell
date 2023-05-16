@@ -23,10 +23,10 @@ int c_dir(char *path, int *n)
 }
 
 /**
- * is_which - To locates a command
+ * is_which - Locates a command
  *
- * @cmd: Command name
- * @_environ: Environment variable
+ * @cmd: Command name.
+ * @_environ: Environment variable.
  * Return: location of the command.
  */
 char *is_which(char *cmd, char **_environ)
@@ -73,10 +73,10 @@ char *is_which(char *cmd, char **_environ)
 }
 
 /**
- * executable_ - To determines if is an executable
+ * executable_ - To determine if it is an executable
  *
  * @datash: Data structure
- * Return: 0 if is not an executable and other number if it does
+ * Return: 0 if it is not an executable and other number if it does
  */
 int executable_(data_shell *datash)
 {
@@ -118,7 +118,7 @@ int executable_(data_shell *datash)
 }
 
 /**
- * checkErrorCmd - To verifies if user has permissions to access
+ * checkErrorCmd - To verify if user has permissions to access
  *
  * @dir: Destination directory
  * @datash: Data structure
