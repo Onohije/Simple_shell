@@ -1,8 +1,8 @@
 #include "ashell.h"
 
 /**
- * errorEnv - Error msg for env in getEnv.
- * @datash: Data relevant
+ * errorEnv - Generates an error message for the "env" command in the getEnv function.
+ * @datash: Data relevant.
  * Return: Error msg.
  */
 char *errorEnv(data_shell *datash)
@@ -37,7 +37,7 @@ char *errorEnv(data_shell *datash)
 }
 /**
  * errorPath_126 - Error msg for path and failure denied permission.
- * @datash: Data relevant
+ * @datash: Data relevant.
  *
  * Return: The error string.
  */
