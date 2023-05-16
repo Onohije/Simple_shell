@@ -1,12 +1,12 @@
 #include "ashell.h"
 
 /**
- * checkEnv - To checks if the typed variable is an env variable
+ * checkEnv - To check if the typed variable is an env variable
  *
  * @hd: The head of linked list
  * @in: Input string
  * @data: Data structure
- * Return: No return
+ * Return: No return value.
  */
 void checkEnv(var_list **hd, char *in, data_shell *data)
 {
@@ -48,7 +48,7 @@ void checkEnv(var_list **hd, char *in, data_shell *data)
  * @in: Input string
  * @st: Last status of the Shell
  * @data: Data structure
- * Return: no return
+ * Return: no return value.
  */
 int checkVars(var_list **hd, char *in, char *st, data_shell *data)
 {
@@ -84,13 +84,13 @@ int checkVars(var_list **hd, char *in, char *st, data_shell *data)
 }
 
 /**
- * replacedInput - To replaces str into variables
+ * replacedInput - Replaces str into variables
  *
  * @hd: head of the linked list
  * @input: Input str
  * @n_input: new input string (replaced)
  * @n_len: new length
- * Return: Replaced string
+ * Return: Replaced string.
  */
 char *replacedInput(var_list **hd, char *input, char *n_input, int n_len)
 {
@@ -136,11 +136,11 @@ char *replacedInput(var_list **hd, char *input, char *n_input, int n_len)
 }
 
 /**
- * repVar - To calls functions to replace string into vars
+ * repVar - To call functions to replace string into vars
  *
  * @input: Input string
  * @datash: Data structure
- * Return: Replaced string
+ * Return: Replaced string.
  */
 char *repVar(char *input, data_shell *datash)
 {
