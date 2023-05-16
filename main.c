@@ -1,7 +1,7 @@
 #include "ashell.h"
 
 /**
- * freeData - frees data structure
+ * freeData - Frees the memory allocated for a data structure.
  *
  * @datash: data structure
  * Return: no return
@@ -20,11 +20,11 @@ void freeData(data_shell *datash)
 }
 
 /**
- * setData - Initialize data structure
+ * setData - Initialize data structure.
  *
- * @datash: Data structure
- * @av: Argument vector
- * Return: no return
+ * @datash: Data structure.
+ * @av: Argument vector.
+ * Return: no return.
  */
 void setData(data_shell *datash, char **av)
 {
@@ -51,10 +51,10 @@ void setData(data_shell *datash, char **av)
 }
 
 /**
- * main - Entry point
+ * main - Entry point.
  *
- * @ac: argument count
- * @av: argument vector
+ * @ac: argument count.
+ * @av: argument vector.
  *
  * Return: 0 on success.
  */
