@@ -1,7 +1,7 @@
 #include "ashell.h"
 
 /**
- * strdup_ - To duplicates a str in the heap memory.
+ * strdup_ -  Duplicates a string in heap memory.
  * @s: Type char pointer str
  * Return: Duplicated str
  */
