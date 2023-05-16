@@ -1,10 +1,10 @@
 #include "ashell.h"
 
 /**
- * readLine - To reads the input string.
+ * readLine - Reads the input string.
  *
  * @i: Return value of getline function
- * Return: input str
+ * Return: input str.
  */
 char *readLine(int *i)
 {
