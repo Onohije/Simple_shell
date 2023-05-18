@@ -28,7 +28,7 @@ extern char **environ;
  * @sta: last status of the shell
  * @contn: lines counter
  * @_environ: environment variable
- * @pid: process ID of the shell
+ * @pid: process ID of the shell.
  */
 typedef struct data
 {
@@ -81,7 +81,7 @@ typedef struct var_store
 /**
  * struct bull_s - A Builtin struct for command args.
  * @nam: The name of the command builtin.
- * @fun: data type pointer function.
+ * @fun: Data type pointer function.
  */
 typedef struct bull_s
 {
