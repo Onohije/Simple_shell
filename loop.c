@@ -49,7 +49,7 @@ void shellLoop(data_shell *datash)
 	lp = 1;
 	while (lp == 1)
 	{
-		write(STDIN_FILENO, "^-^ ", 4);
+		write(STDIN_FILENO, "@-@ ", 4);
 		input = readLine(&i);
 		if (i != -1)
 		{

@@ -7,5 +7,5 @@
 void getSigint(int s)
 {
 	(void)s;
-	write(STDOUT_FILENO, "\n^-^ ", 5);
+	write(STDOUT_FILENO, "\n@-@ ", 5);
 }

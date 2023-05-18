@@ -161,7 +161,6 @@ char *is_which(char *cmd, char **_environ);
 int executable_(data_shell *datash);
 int checkErrorCmd(char *dir, data_shell *datash);
 int commandExec(data_shell *datash);
-
 /* ashell_env.c */
 char *_getenv(const char *n, char **_environ);
 int _env(data_shell *datash);

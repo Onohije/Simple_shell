@@ -1,7 +1,7 @@
 #include "ashell.h"
 
 /**
- * line - assigns the line var for getLine
+ * line - Assigns the line var for getLine
  * @lineptr: Buffer that store the input str
  * @buf: str that is been called to line
  * @i: size of line
