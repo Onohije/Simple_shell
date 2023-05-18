@@ -1,7 +1,7 @@
 #include "ashell.h"
 
 /**
- * del_comment - To deletes comments from the input
+ * del_comment - Deletes comments from the input
  *
  * @in: input str
  * Return: input without comments
@@ -39,7 +39,7 @@ char *del_comment(char *in)
  * shellLoop - Loop of shell
  * @datash: Data relevant (av, input, args)
  *
- * Return: no return.
+ * Return: no return value.
  */
 void shellLoop(data_shell *datash)
 {

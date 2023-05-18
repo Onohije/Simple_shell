@@ -1,10 +1,10 @@
 #include "ashell.h"
 
 /**
- * cmpEnvName - To compares env variables names
+ * cmpEnvName - To compares env variables names.
  * with the name passed.
- * @env_name: Name of the environment variable
- * @n: name passed
+ * @env_name: Name of the environment variable.
+ * @n: Name passed for comparison.
  *
  * Return: 0 if are not equal. Another value if they are.
  */

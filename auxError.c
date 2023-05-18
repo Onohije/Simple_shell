@@ -1,13 +1,13 @@
 #include "ashell.h"
 
 /**
- * strcatCd - The function that concatenates the message for cd error
+ * strcatCd - The function that concatenates the message for cd error.
  *
- * @datash: data relevant
- * @ms: message to print
- * @err: output message
- * @v_str: counter lines
- * Return: error message
+ * @datash: data relevant to the error.
+ * @ms: message to print.
+ * @err: output message.
+ * @v_str: counter lines.
+ * Return: error message.
  */
 char *strcatCd(data_shell *datash, char *ms, char *err, char *v_str)
 {
@@ -111,9 +111,9 @@ char *errorNotFound(data_shell *datash)
 
 /**
  * errorExitShell - To generic error msg for exit in getExit
- * @datash: data relevant (counter, arguments)
+ * @datash: data relevant (counter, arguments).
  *
- * Return: Error msg
+ * Return: Error msg.
  */
 char *errorExitShell(data_shell *datash)
 {

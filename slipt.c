@@ -1,11 +1,11 @@
 #include "ashell.h"
 
 /**
- * swapChar - To swaps | and & for non-printed chars
+ * swapChar - To swap | and & for non-printed chars
  *
  * @input: Input str
  * @bool: Type of swap
- * Return: Swapped string
+ * Return: Swapped string.
  */
 char *swapChar(char *input, int bool)
 {
@@ -44,12 +44,12 @@ char *swapChar(char *input, int bool)
 }
 
 /**
- * addNodes - To add separators and command lines in the lists
+ * addNodes - Adds separators and command lines in the lists
  *
  * @hd_s: Head of separator list
  * @hd_l: Head of command lines list
  * @input: Input string
- * Return: no return
+ * Return: no return value
  */
 void addNodes(store_sep **hd_s, store_line **hd_l, char *input)
 {
@@ -85,7 +85,7 @@ void addNodes(store_sep **hd_s, store_line **hd_l, char *input)
  * @lt_s: Separator list
  * @lt_l: Command line list
  * @datash: data structure
- * Return: no return
+ * Return: no return value.
  */
 void goNext(store_sep **lt_s, store_line **lt_l, data_shell *datash)
 {

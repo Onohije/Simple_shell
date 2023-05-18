@@ -1,7 +1,7 @@
 #include "ashell.h"
 
 /**
- * addSepNodeEnd - To adds a separator found at the end
+ * addSepNodeEnd - adds separator found at the end
  * of a store_sep.
  * @head: Head of the linked list.
  * @sept: Separator found (; | &).
@@ -34,7 +34,7 @@ store_sep *addSepNodeEnd(store_sep **head, char sept)
 }
 
 /**
- * freeSepList - To frees a store_sep
+ * freeSepList - To free a store_sep
  * @head: head of the linked list.
  * Return: no return.
  */

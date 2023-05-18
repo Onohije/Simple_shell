@@ -1,7 +1,7 @@
 #include "ashell.h"
 
 /**
- * getSigint - To handle the crtl + c call in prompt
+ * getSigint - Signal handler for handling the Ctrl + C signal in the prompt
  * @s: Signal handler
  */
 void getSigint(int s)

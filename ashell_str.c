@@ -44,8 +44,8 @@ char *strcpy_(char *dest, char *src)
 }
 /**
  * strcmp_ - Function that compares two strings.
- * @s: Type str compared
- * @ss: Type str compared
+ * @s: Type str compared.
+ * @ss: Type str compared.
  * Return: Always 0.
  */
 int strcmp_(char *s, char *ss)

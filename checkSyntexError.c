@@ -1,11 +1,11 @@
 #include "ashell.h"
 
 /**
- * repeatedChar - Counts the repetitions of a char
+ * repeatedChar - Counts the repetitions of a char.
  *
- * @input: Input str
- * @c: index
- * Return: repetitions
+ * @input: Input str.
+ * @c: index.
+ * Return: repetitions.
  */
 int repeatedChar(char *input, int c)
 {
@@ -16,7 +16,7 @@ int repeatedChar(char *input, int c)
 }
 
 /**
- * errorSepOp - To finds syntax errors
+ * errorSepOp - To find syntax errors
  *
  * @input: input str
  * @c: index
@@ -68,7 +68,7 @@ int errorSepOp(char *input, int c, char ls)
 }
 
 /**
- * firstChar - To finds index of the first char
+ * firstChar - To find index of the first char
  *
  * @input: Input str
  * @c: Index
@@ -92,7 +92,7 @@ int firstChar(char *input, int *c)
 }
 
 /**
- * print_syntax_error - To prints when a syntax error is found
+ * print_syntax_error -  prints when a syntax error is found
  *
  * @datash: Data structure
  * @input: Input str
@@ -145,12 +145,12 @@ void printSyntaxError(data_shell *datash, char *input, int c, int bool)
 }
 
 /**
- * checkSyntaxError - To intermediate function to
+ * checkSyntaxError - Intermediate function to
  * find and print a syntax error
  *
  * @datash: Data structure
  * @input: Input string
- * Return: 1 if there is an error and 0 in other case
+ * Return: 1 if there is an error and 0 in other case.
  */
 int checkSyntaxError(data_shell *datash, char *input)
 {

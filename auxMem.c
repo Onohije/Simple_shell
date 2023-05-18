@@ -1,12 +1,12 @@
 #include "ashell.h"
 
 /**
- * _memcpy - To copies information between void pointers.
+ * _memcpy - To copy information between void pointers.
  * @nptr: Destination pointer.
  * @ptr: Source pointer.
  * @size: Size of the new pointer.
  *
- * Return: no return.
+ * Return: no return value.
  */
 void _memcpy(void *nptr, const void *ptr, unsigned int size)
 {
@@ -58,7 +58,7 @@ void *_realloc(void *ptr, unsigned int oldSize, unsigned int newSize)
 }
 
 /**
- * _reallocdp - To reallocates a memory block of a double pointer.
+ * _reallocdp - To reallocate a memory block of a double pointer.
  * @ptr: Double pointer to the memory previously allocated.
  * @oldSize: Size, in bytes, of the allocated space of ptr.
  * @newSize: New size, in bytes, of the new memory block.

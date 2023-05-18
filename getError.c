@@ -2,9 +2,9 @@
 
 /**
  * getError - Calls the error according the builtin, syntax or permission
- * @datash: Data structure that contains arguments
+ * @datash: Data structure containing the arguments
  * @e_v: Error value
- * Return: error
+ * Return: Error
  */
 int getError(data_shell *datash, int e_v)
 {

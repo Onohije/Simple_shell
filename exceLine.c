@@ -3,7 +3,7 @@
 /**
  * execLine - finds builtins and commands
  *
- * @datash: data relevant (args)
+ * @datash: data relevant to the execution (args)
  * Return: 1 on success.
  */
 int execLine(data_shell *datash)
