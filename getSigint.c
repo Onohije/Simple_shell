@@ -2,7 +2,7 @@
 
 /**
  * getSigint - Signal handler for handling the Ctrl + C signal in the prompt
- * @s: Signal handler
+ * @s: Signal handler.
  */
 void getSigint(int s)
 {
