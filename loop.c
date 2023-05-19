@@ -4,7 +4,7 @@
  * del_comment - Deletes comments from the input
  *
  * @in: input str
- * Return: input without comments
+ * Return: input without comments.
  */
 char *del_comment(char *in)
 {
@@ -37,7 +37,7 @@ char *del_comment(char *in)
 
 /**
  * shellLoop - Loop of shell
- * @datash: Data relevant (av, input, args)
+ * @datash: Data relevant (av, input, args).
  *
  * Return: no return value.
  */
