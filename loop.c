@@ -3,8 +3,8 @@
 /**
  * del_comment - Deletes comments from the input
  *
- * @in: input str
- * Return: input without comments.
+ * @in: Input str
+ * Return: Input without comments.
  */
 char *del_comment(char *in)
 {
