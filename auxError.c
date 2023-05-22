@@ -4,10 +4,10 @@
  * strcatCd - The function that concatenates the message for cd error.
  *
  * @datash: data relevant to the error.
- * @ms: message to print.
- * @err: output message.
- * @v_str: counter lines.
- * Return: error message.
+ * @ms: Message to print.
+ * @err: Output message.
+ * @v_str: Counter lines.
+ * Return: Error message.
  */
 char *strcatCd(data_shell *datash, char *ms, char *err, char *v_str)
 {
