@@ -1,7 +1,7 @@
 #include "ashell.h"
 
 /**
- * getBuiltin - The builtin that pais the command in the arg
+ * getBuiltin - The builtin that pais the command in the arg.
  * @cmd: The command for which to retrieve the built-in function pointer.
  * Return: The function pointer of the built-in command.
  */
