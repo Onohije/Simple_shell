@@ -4,7 +4,7 @@
  * readLine - Reads the input string.
  *
  * @i: Return value of getline function
- * Return: input str.
+ * Return: Input str.
  */
 char *readLine(int *i)
 {
