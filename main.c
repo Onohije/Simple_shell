@@ -3,8 +3,8 @@
 /**
  * freeData - Frees the memory allocated for a data structure.
  *
- * @datash: data structure
- * Return: no return
+ * @datash: Data structure
+ * Return: No return
  */
 void freeData(data_shell *datash)
 {
