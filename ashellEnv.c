@@ -3,7 +3,7 @@
 /**
  * copyInfo - To copies info
  * @n: Name of the environment variable or alias
- * @v: Value of the environment variable or alias
+ * @v: Value of the environment variable or alias.
  *
  * Return: New env or alias.
  */
