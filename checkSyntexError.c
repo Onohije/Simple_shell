@@ -4,7 +4,7 @@
  * repeatedChar - Counts the repetitions of a char.
  *
  * @input: Input str.
- * @c: index.
+ * @c: Index.
  * Return: repetitions.
  */
 int repeatedChar(char *input, int c)
