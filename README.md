@@ -26,7 +26,7 @@ execve will be the core part of your Shell, don’t forget to pass the environ t
 2. Simple shell 0.2
    Simple shell 0.1 +
 
-Handle command lines with arguments
+Handle command lines with arguments.
 
 3. Simple shell 0.3
    Simple shell 0.2 +
