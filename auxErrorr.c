@@ -2,7 +2,7 @@
 
 /**
  * errorEnv - Generates an error message for the "env" command in the getEnv function.
- * @datash: Data relevant.
+ * @datash: Data relevant
  * Return: Error msg.
  */
 char *errorEnv(data_shell *datash)
