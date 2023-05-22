@@ -49,7 +49,7 @@ char *swapChar(char *input, int bool)
  * @hd_s: Head of separator list
  * @hd_l: Head of command lines list
  * @input: Input string
- * Return: no return value
+ * Return: no return value.
  */
 void addNodes(store_sep **hd_s, store_line **hd_l, char *input)
 {
