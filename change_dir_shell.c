@@ -4,7 +4,7 @@
  * change_dir_shell - Changes current directory.
  *
  * @datash: Data relevant.
- * Return: 1 on success.
+ * Return: 1 on success
  */
 int change_dir_shell(data_shell *datash)
 {
