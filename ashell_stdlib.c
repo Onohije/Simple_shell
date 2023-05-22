@@ -30,7 +30,7 @@ int getLen(int n)
 /**
  * auxItoa - To function converts int to str.
  * @n: Type int num.
- * Return: String.
+ * Return: Str.
  */
 char *auxItoa(int n)
 {
