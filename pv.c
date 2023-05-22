@@ -5,7 +5,7 @@
  *
  * @hd: The head of linked list
  * @in: Input string
- * @data: Data structure
+ * @data: Data structure.
  * Return: No return value.
  */
 void checkEnv(var_list **hd, char *in, data_shell *data)
